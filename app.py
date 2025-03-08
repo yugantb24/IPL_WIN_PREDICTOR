@@ -20,7 +20,7 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
           'Sharjah', 'Mohali', 'Bengaluru']
 
 # prediction model
-pipe = pickle.load(open(r'D:\ipl_win_predictor\pipe (1).pkl', 'rb'))
+pipe = pickle.load(open('pipe (1).pkl', 'rb'))
 
 # Streamlit UI
 st.set_page_config(page_title="IPL Win Predictor", page_icon="🏏", layout="wide")
