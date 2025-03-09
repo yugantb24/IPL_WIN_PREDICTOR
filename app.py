@@ -64,8 +64,8 @@ with st.sidebar:
 
 # Prediction
 result = pipe.predict_proba(input_df)
-win_prob = result[0][0]
-remaining_prob = result[0][1]
+win_prob = result[0][1]
+remaining_prob = result[0][0]
 
 # Display Win Probability with Plotly Gauge
 col1, col2 = st.columns(2)
